@@ -1,0 +1,15 @@
+{
+  "name": "slackwalambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "netlify-lambda serve functions",
+    "build": "netlify-lambda build functions"
+  },
+  "author": "Hill Onyechekwa",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify-lambda": "^2.0.15"
+  }
+}
