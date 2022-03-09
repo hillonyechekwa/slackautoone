@@ -15,7 +15,7 @@ module.exports =  {
       return{
         id: page.id,
         name: page.properties.Name.title[0]?.plain_text,
-        number: parseInt(page.properties.Contact.phone_number)
+        number: Number.parseInt(page.properties.Contact.phone_number)
       }
     })
   }

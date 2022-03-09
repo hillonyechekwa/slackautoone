@@ -3,7 +3,7 @@ const axios = require('axios')
 const {getDatabase} = require('./notion.js');
 
 
-exports.handler = async (event, context) => {
+exports.handler = async (event) => {
   if (event.httpMethod === 'GET') {
     const data = await getDatabase()
     return{
