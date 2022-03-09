@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "netlify-lambda serve functions",
+    "postinstall": "netlify-lambda install functions",
     "build": "netlify-lambda build functions"
   },
   "author": "Hill Onyechekwa",
