@@ -11,5 +11,10 @@
   "license": "MIT",
   "devDependencies": {
     "netlify-lambda": "^2.0.15"
+  },
+  "dependencies": {
+    "@notionhq/client": "^1.0.1",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0"
   }
 }
