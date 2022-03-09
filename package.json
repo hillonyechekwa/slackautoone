@@ -11,6 +11,7 @@
   "author": "Hill Onyechekwa",
   "license": "MIT",
   "devDependencies": {
+    "encoding": "^0.1.13",
     "netlify-lambda": "^2.0.15"
   },
   "dependencies": {
