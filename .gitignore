@@ -2,3 +2,6 @@
 .env
 .env.development
 
+
+# Local Netlify folder
+.netlify

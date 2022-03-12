@@ -16,7 +16,8 @@
   },
   "dependencies": {
     "@notionhq/client": "^1.0.1",
-    "axios": "^0.26.0",
-    "dotenv": "^16.0.0"
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.2.2"
   }
 }
