@@ -6,7 +6,9 @@ exports.default = async (event, callback) => {
             const {challenge} = event.body
             callback(null, {
                 statusCode: 200,
-                body: challenge
+                body: {
+                    challenge: challenge
+                }
             })
             return{
                 statusCode: 200,
