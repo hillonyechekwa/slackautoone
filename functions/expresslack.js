@@ -11,4 +11,4 @@ app.post('/.netlify/functions/expresslack', (req, res) => {
     res.send({challenge});
 })
 
-// module.exports.handler = serverless(app);
+module.exports.handler = serverless(app);
