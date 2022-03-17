@@ -6,7 +6,9 @@ const bodyparser = require('body-parser')
 
 
 app.use(bodyparser.json())
-app.post('/.netlify/functions/slack', (req, res) => {
+app.post('/.netlify/functions/expresslack', (req, res) => {
     const {challenge} = req.body
     res.send({challenge});
 })
+
+// module.exports.handler = serverless(app);
