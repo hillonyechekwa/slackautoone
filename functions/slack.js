@@ -3,10 +3,10 @@
 exports.handler = (event, callback) => {
 
     if(event.httpMethod === 'POST'){
-        const {challenge} = event.body
+        const challenge = await event.body.challenge
         callback(null,{
             statusCode:200,
-            body: {challenge}
+            body: challenge
         })
     }
 }
