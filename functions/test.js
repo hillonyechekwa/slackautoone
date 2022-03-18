@@ -1,17 +1,9 @@
+exports.handler = async (event,context, callback) => {
 
-
-exports.handler = async(event, callback) => {
-  // console.log('callback', callback)
-  if(event.httpMethod === 'POST'){
-    callback(null, {
-      statusCode: 200,
-      body: {
-        challenge: event.body.challenge
-      }
-    })
-  }
-  return{
+  callback(null, {
     statusCode: 200,
-    body: JSON.stringify("Hello Everyone!")
-  }
-}
+    body: "Hello World!"
+  });
+};
+
+
