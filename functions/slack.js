@@ -1,6 +1,6 @@
 
 
-exports.handler = (event, callback) => {
+exports.handler = async(event, callback) => {
 
     if(event.httpMethod === 'POST'){
         const challenge = await event.body.challenge
